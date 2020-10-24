@@ -338,3 +338,15 @@ ASALocalRun/
 
 # BeatPulse healthcheck temp database
 healthchecksdb
+
+# ==========================================================自定义忽略begin
+# 前面定义忽略*.tlb，但不忽略msado60_Backcompat_i386.tlb
+!msado60_Backcompat_i386.tlb
+[Cc]onfig/
+[Rr]eport/
+[Ll][Oo][Gg]/
+[Pp]hoto/
+[Pp]hoto_[Oo][Kk]/
+[Pp]hoto_Fail/
+[Aa]pp_[Dd]ata/
+# ==========================================================自定义忽略end
